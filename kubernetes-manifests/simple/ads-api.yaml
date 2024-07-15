@@ -34,7 +34,6 @@ kind: Service
 metadata:
   name: ads-api
 spec:
-  type: LoadBalancer
   selector:
     app: ads-api
   ports:
