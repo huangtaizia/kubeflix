@@ -48,7 +48,6 @@ kind: Service
 metadata:
   name: movies-api
 spec:
-  type: LoadBalancer
   selector:
     app: movies-api
   ports:
