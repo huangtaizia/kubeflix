@@ -51,6 +51,7 @@ kind: Service
 metadata:
   name: recommendation-api
 spec:
+  type: LoadBalancer
   selector:
     app: recommendation-api
   ports:
